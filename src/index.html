@@ -16,5 +16,50 @@
             />
             <h3>Hello! My name is Jonatan and i'm a developer.</h3>
         </section>
+
+        <section style="margin-left: 20rem; margin-right: 20rem;">
+            <h3>About me</h3>
+            <p>
+                I'm a web developer based in Stockholm, Sweden. 
+                I like videogames, cars, coding, dogs, and good food.
+                I like coding because I'm interested in how computers, 
+                and other things IT work and function. Coding is a 
+                way to understand and create with it, which I really enjoy.  
+            </p>
+            <p>
+                Here's a list of a few langs, framworks, and tools I know a little about:
+            </p>
+            <ul style="list-style: none;">
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>SQL</li>
+                <li>MongoDB</li>
+                <li>ReactJS</li>
+                <li>ExpressJS</li>
+            </ul>
+            <p>
+                Here's a few socials I have:
+            </p>
+            <p>
+                <a href="https://github.com/JonatanDrysen/">GitHub</a> - 
+                <a href="https://www.linkedin.com/in/jonatan-drys%C3%A9n-b52551224/">LinkedIn</a>
+            </p>
+        </section>
+
+        <footer style="display: flex; flex-direction: column; align-items: center;">
+            <div class="date"></div> <br />
+            <img 
+                style="width: 1rem;"
+                src="/img/copyright-symbol-svgrepo-com.svg" 
+                alt="Copyright symbol" 
+            />
+            <div>Copyright 2023 - Jonatan Drysén</div>
+        </footer>
+
+        <script>
+            const date = new Date()
+            const div = document.getElementsByClassName("date")
+            div[0].append(date)
+        </script>
     </body>
 </html>
